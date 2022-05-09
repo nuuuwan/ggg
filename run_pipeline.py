@@ -1,7 +1,7 @@
 import os
 
 import tweepy
-from utils import jsonx, logx, timex, tsv
+from utils import filex, jsonx, logx, timex, tsv
 
 log = logx.get_logger('ggg')
 
@@ -155,6 +155,11 @@ def write_summmary():
 
         video_metadata_list.append(video_metadata)
 
+    video_metadata_list = sorted(
+        video_metadata_list,
+        key=lambda d: ['created_at'],
+    )
+
     video_metadata_list_file = 'video_metadata_list.json'
     n_video_metadata_list = len(video_metadata_list)
     jsonx.write(video_metadata_list_file, video_metadata_list)
@@ -164,26 +169,44 @@ def write_summmary():
     tsv.write(video_metadata_list_file, video_metadata_list)
     print(f'Wrote {n_video_metadata_list} to {video_metadata_list_file}')
 
+    lines = []
+    for video_metadata in video_metadata_list:
+        if not video_metadata['video_downloaded']:
+            continue
+
+        lines.append('# ' + video_metadata['user_name'])
+        lines.append('*' + video_metadata['created_at'] + '*')
+        lines.append(video_metadata['full_text'])
+
+        lines.append(
+            '[video](' + video_metadata['downloaded_video_url0'] + ')',
+        )
+
+    md_file = 'README.md'
+    md_content = '\n\n'.join(lines)
+    filex.write(md_file, md_content)
+
 
 if __name__ == '__main__':
 
-    scrape_metadata()
-
-    time_id = timex.get_time_id()
-    os.system('git add .')
-    os.system(
-        f'git commit -m "[run_pipeline][scrape_metadata] {time_id}"',
-    )
-
-    download_videos()
-
-    time_id = timex.get_time_id()
-    os.system('git add .')
-    os.system(
-        f'git commit -m "[run_pipeline][download_videos] {time_id}"',
-    )
+    # scrape_metadata()
+    #
+    # time_id = timex.get_time_id()
+    # os.system('git add .')
+    # os.system(
+    #     f'git commit -m "[run_pipeline][scrape_metadata] {time_id}"',
+    # )
+    #
+    # download_videos()
+    #
+    # time_id = timex.get_time_id()
+    # os.system('git add .')
+    # os.system(
+    #     f'git commit -m "[run_pipeline][download_videos] {time_id}"',
+    # )
 
     write_summmary()
+    time_id = timex.get_time_id()
     os.system('git add .')
     os.system(
         f'git commit -m "[run_pipeline][write_summmary] {time_id}"',
