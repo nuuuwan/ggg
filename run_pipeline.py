@@ -183,9 +183,7 @@ def write_summmary():
         lines.append('*' + video_metadata['created_at'] + '*')
         lines.append(video_metadata['full_text'])
 
-        lines.append(
-            '[video](' + video_metadata['downloaded_video_url0'] + ')',
-        )
+        lines.append(video_metadata['downloaded_video_url0'])
 
     md_file = 'README.md'
     md_content = '\n\n'.join(lines)
