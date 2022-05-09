@@ -1,7 +1,7 @@
 import os
 
 import tweepy
-from utils import jsonx, logx, timex
+from utils import jsonx, logx, timex, tsv
 
 log = logx.get_logger('ggg')
 
@@ -157,6 +157,10 @@ def write_summmary():
     video_metadata_list_file = 'video_metadata_list.json'
     n_video_metadata_list = len(video_metadata_list)
     jsonx.write(video_metadata_list_file, video_metadata_list)
+    print(f'Wrote {n_video_metadata_list} to {video_metadata_list_file}')
+
+    video_metadata_list_file = 'video_metadata_list.tsv'
+    tsv.write(video_metadata_list_file, video_metadata_list)
     print(f'Wrote {n_video_metadata_list} to {video_metadata_list_file}')
 
 
