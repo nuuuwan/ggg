@@ -10,7 +10,6 @@ DIR_VIDEOS = 'videos'
 MIN_FILE_SIZE = 1000
 
 
-
 def download_video(remote_url, local_video_file):
     cmd = f'wget -nv -O {local_video_file} {remote_url}'
     os.system(cmd)
@@ -93,6 +92,7 @@ def scrape_metadata():
         if n_videos > MAX_VIDEOS_TO_SCRAPE:
             break
 
+
 def download_videos():
     file_list = list(os.listdir(DIR_VIDEO_METADATA))
     n = len(file_list)
@@ -119,10 +119,6 @@ def download_videos():
             video_file = os.path.join(DIR_VIDEOS, f'{id}-{i_video}.mp4')
             download_video(video_url, video_file)
             log.debug(f'Downloaded {video_file}'...)
-
-
-
-
 
 
 if __name__ == '__main__':
