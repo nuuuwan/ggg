@@ -155,10 +155,10 @@ def write_summmary():
 
         video_metadata_list.append(video_metadata)
 
-    video_metadata_list = sorted(
+    video_metadata_list = list(reversed(sorted(
         video_metadata_list,
         key=lambda d: ['created_at'],
-    )
+    )))
 
     video_metadata_list_file = 'video_metadata_list.json'
     n_video_metadata_list = len(video_metadata_list)
