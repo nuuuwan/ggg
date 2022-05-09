@@ -141,6 +141,11 @@ def write_summmary():
         video_metadata = jsonx.read(video_metadata_file)
         id = video_metadata['id']
         video_metadata['id'] = str(id)
+        video_metadata['created_at_ut'] = timex.parse_time(
+            video_metadata['created_at'],
+            '%Y-%m-%d %H:%M:%S'
+        )
+
         video0_file = os.path.join(DIR_VIDEOS, f'{id}-0.mp4')
         if os.path.exists(video0_file):
             video_metadata['video_downloaded'] = True
@@ -157,7 +162,7 @@ def write_summmary():
 
     video_metadata_list = list(reversed(sorted(
         video_metadata_list,
-        key=lambda d: ['created_at'],
+        key=lambda d: ['created_at_ut'],
     )))
 
     video_metadata_list_file = 'video_metadata_list.json'
