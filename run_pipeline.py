@@ -9,6 +9,8 @@ DIR_VIDEO_METADATA = 'video_metadata'
 DIR_VIDEOS = 'videos'
 MIN_FILE_SIZE = 1000
 
+
+
 def download_video(remote_url, local_video_file):
     cmd = f'wget -nv -O {local_video_file} {remote_url}'
     os.system(cmd)
@@ -54,9 +56,6 @@ def scrape_metadata():
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
     api = tweepy.API(auth, wait_on_rate_limit=True)
-
-    # test_tweet(api)
-    # return
 
     n_videos = 0
     for tweet in tweepy.Cursor(
@@ -123,11 +122,7 @@ def download_videos():
 
 
 
-def test_tweet(api):
-    id = 1523622701159825416
-    tweet = api.get_status(id, tweet_mode='extended')
-    print(json.dumps(tweet._json, indent=2))
-    print(get_video_url_list(tweet))
+
 
 
 if __name__ == '__main__':
