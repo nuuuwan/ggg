@@ -169,4 +169,4 @@ if __name__ == '__main__':
         f'git commit -m "[run_pipeline][write_summmary] {time_id}"',
     )
 
-    os.system('git push origin master')
+    os.system('git push origin main')
