@@ -1,3 +1,170 @@
+# Shehan Perera
+
+*2022-05-09 15:34:51*
+
+Avenra Gardens Hotel in Negombo has been set on fire including a super car collection. 
+#SrilankanCrisis #GoHomeGota #SriLankaprotest #GotaGoGama #lka https://t.co/tPNDx70jyJ
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523687955260354561-0.mp4
+
+# Amodya 🇱🇰
+
+*2022-05-09 15:27:19*
+
+You can throw, burn our books but you can never steal our wisdom. we will re build gota go gama till these looses go away. 
+
+#SrilankanCrisis #GotaGoGama #GotaGoHome #SriLankaEconomicCrisis https://t.co/LLfWSxFGls
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523686058084298752-0.mp4
+
+# lucias
+
+*2022-05-09 15:25:12*
+
+He came for support @PresRajapaksa But in the end no one came for save him.
+
+#srilanka #ProtestLK #GotaGoGama #අරගලයටජය #lka https://t.co/za0iVdTLxZ https://t.co/mk111AIXPk
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523685525135458304-0.mp4
+
+# Praveen Dhananjaya
+
+*2022-05-09 15:11:12*
+
+Salute to every single soul who support to the protest.
+#SriLanka #GotaGoGama https://t.co/kixKBYt7dE
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523682000766267394-0.mp4
+
+# ShanM
+
+*2022-05-09 15:09:02*
+
+#LIVE - Avenra Garden in Negombo attacked by Protesters... 
+
+#GotaGoGama #ProtestLK #GoHomeRajapakshas #GoHomeMahinda #අරගලයටජය  #GotaGoHome2022 https://t.co/8CZDPynXw9
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523681456605700096-0.mp4
+
+# SHAN
+
+*2022-05-09 15:08:25*
+
+#LIVE - Avenra Garden in Negombo attacked by Protesters... 
+
+#GotaGoGama #ProtestLK #GoHomeRajapakshas #GoHomeMahinda #අරගලයටජය  #GotaGoHome2022 https://t.co/eczh0QKLIi
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523681302368907264-0.mp4
+
+# Rimzana Feshal ➙ 🇱🇰
+
+*2022-05-09 14:56:38*
+
+Uni students marching towards #gotagogamakandy #gotagogama #kandy 8:15pm https://t.co/TeHBpxsLnH
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523678337742213122-0.mp4
+
+# Sharoth Saffardeen
+
+*2022-05-09 14:54:52*
+
+Don’t try to harm everyone, some don’t have any options to survive, but what they have done is wrong,
+Just try to be against the main ones who are behind this injustice work done to the protesters at gotagogama, 
+#GotaGoGama #GoHomeGota #peoplepower https://t.co/hYsdaFjq53
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523677890956603392-0.mp4
+
+# ShanM
+
+*2022-05-09 14:50:47*
+
+Truly apocalyptic scenes near Beira Lake where angry protestors have overturned a number of buses and set fire to them.
+
+#GotaGoGama #ProtestLK #GoHomeRajapakshas #GoHomeMahinda #අරගලයටජය  #GotaGoHome2022 https://t.co/dItffh36g0
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523676864597745672-0.mp4
+
+# Thewmina
+
+*2022-05-09 14:50:40*
+
+When asked as to why he attacked the GGG protestors, says he is single parent, with daughter, &amp; came because they threatened to cut off his Samurdhi relief/card. Tragic, on many levels.This is abuse of power this is like a dictatorship #GoHomeRajapakshas #GoHomeGota #GotaGoGama https://t.co/px7mTDDAut
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523676832356179969-0.mp4
+
+# SHAN
+
+*2022-05-09 14:49:33*
+
+Truly apocalyptic scenes near Beira Lake where angry protestors have overturned a number of buses and set fire to them.
+
+#GotaGoGama #ProtestLK #GoHomeRajapakshas #GoHomeMahinda #අරගලයටජය  #GotaGoHome2022 https://t.co/mnqk1yP3nt
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523676553548234752-0.mp4
+
+# Thenu
+
+*2022-05-09 14:49:03*
+
+Another mansion, near Sangamitta College Galle.
+
+#GotaGoGama #GotaGoHome #GoHomeRajapakshas #GoHomeGota https://t.co/Yqx0wacCne
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523676425848430593-0.mp4
+
+# ˗ˏˋMono´ˎ˗ ☾︎
+
+*2022-05-09 14:43:08*
+
+This isn't a film or a drama. This is the real situation in #SriLanka right now. henchmen of @PresRajapaksa attacked innocent protestors at #GotaGoGama &amp; #MainaGoGama and the police didn't take any action except watching. 
+
+#GoHomeRajapakshas #SriLankaCrisis https://t.co/1eRY8yKbI1
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523674936660832257-0.mp4
+
+# ShanM
+
+*2022-05-09 14:37:54*
+
+One of “we want gota” got caught by protesters And he is attacked...
+
+#GotaGoGama #ProtestLK #GoHomeRajapakshas #GoHomeMahinda #අරගලයටජය  #GotaGoHome2022 https://t.co/hMY5W4xSJv
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523673619511267329-0.mp4
+
+# SHAN
+
+*2022-05-09 14:37:43*
+
+One of “we want gota” got caught by protesters And he is attacked...
+
+#GotaGoGama #ProtestLK #GoHomeRajapakshas #GoHomeMahinda #අරගලයටජය  #GotaGoHome2022 https://t.co/igvKq1YqLC
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523673575504637953-0.mp4
+
+# Suresh de Silva
+
+*2022-05-09 14:30:33*
+
+𝑼𝒏𝒇𝒂𝒛𝒆𝒅 
+
+Gotagogama renewed. Rejuvenated. Reborn.
+
+🖤🇱🇰✊🏽
+
+#GotaGoGama
+#GotaGoHome #RajapaksasGoHome https://t.co/WlIx8HLfFC
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523671769722195969-0.mp4
+
+# Priyanga|CrewForShoots
+
+*2022-05-09 14:28:53*
+
+Night at #GotaGoGama #ProtestLK #GoHomeGota https://t.co/e2qriJb6tV
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523671350434742272-0.mp4
+
 # ShanM
 
 *2022-05-09 14:24:27*
@@ -328,7 +495,7 @@ https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523641413581557760-0.
 
 https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523641063814332416-0.mp4
 
-# Shamil Ahamed
+# S H A M 🇱🇰 අරගලයට ඡය 🫡
 
 *2022-05-09 12:28:04*
 
