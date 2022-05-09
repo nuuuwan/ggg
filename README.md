@@ -1,3 +1,13 @@
+# ShanM
+
+*2022-05-09 14:24:27*
+
+#UPDATE - Tires burnt at Aluthmawatha Colombo 15 and next to Bloemendal Police station...
+
+#GotaGoGama #ProtestLK #GoHomeRajapakshas #GoHomeMahinda #අරගලයටජය  #GotaGoHome2022 https://t.co/UPYjx8SNrD
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523670237987876865-0.mp4
+
 # SHAN
 
 *2022-05-09 14:23:58*
