@@ -141,7 +141,17 @@ def write_summmary():
         video_metadata = jsonx.read(video_metadata_file)
         id = video_metadata['id']
         video0_file = os.path.join(DIR_VIDEOS, f'{id}-0.mp4')
-        video_metadata['video_downloaded'] = os.path.exists(video0_file)
+        if os.path.exists(video0_file):
+            video_metadata['video_downloaded'] = True
+            video_metadata['downloaded_video_url0'] = os.path.join(
+                'https://raw.githubusercontent.com',
+                'nuuuwan/ggg/main/videos',
+                f'{id}-0.mp4',
+            )
+        else:
+            video_metadata['video_downloaded'] = False
+            video_metadata['downloaded_video_url0'] = None
+
         video_metadata_list.append(video_metadata)
 
     video_metadata_list_file = 'video_metadata_list.json'
