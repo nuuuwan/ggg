@@ -1,6 +1,8 @@
 import os
+
 import tweepy
 from utils import jsonx, logx, timex, tsv
+
 log = logx.get_logger('ggg')
 
 MAX_VIDEOS_TO_SCRAPE = 100
