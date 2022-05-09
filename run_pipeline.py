@@ -162,7 +162,7 @@ def write_summmary():
 
     video_metadata_list = list(reversed(sorted(
         video_metadata_list,
-        key=lambda d: ['created_at_ut'],
+        key=lambda d: d['created_at_ut'],
     )))
 
     video_metadata_list_file = 'video_metadata_list.json'
