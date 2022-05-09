@@ -1,6 +1,6 @@
 import os
 import tweepy
-from utils import jsonx, logx, timex
+from utils import jsonx, logx, timex, tsv
 log = logx.get_logger('ggg')
 
 MAX_VIDEOS_TO_SCRAPE = 100
@@ -109,9 +109,9 @@ def download_videos():
             continue
 
         id = video_metadata['id']
-        video_file = os.path.join(DIR_VIDEOS, f'{id}-0.mp4')
-        if os.path.exists(video_file):
-            log.debug(f'{video_file} already exists')
+        video0_file = os.path.join(DIR_VIDEOS, f'{id}-0.mp4')
+        if os.path.exists(video0_file):
+            log.debug(f'{video0_file} already exists')
             continue
 
         video_url_list = video_metadata['video_url_list']
@@ -123,6 +123,24 @@ def download_videos():
 
             if n_downloads >= MAX_DOWNLOADS_PER_ATTEMPT:
                 return
+
+
+def write_summmary():
+    file_list = list(os.listdir(DIR_VIDEO_METADATA))
+    video_metadata_list = []
+    for file_only in file_list:
+        if file_only[-5:] != '.json':
+            continue
+        video_metadata_file = os.path.join(DIR_VIDEO_METADATA, file_only)
+        video_metadata = jsonx.read(video_metadata_file)
+        video0_file = os.path.join(DIR_VIDEOS, f'{id}-0.mp4')
+        video_metadata['video_downloaded'] = os.path.exists(video0_file)
+        video_metadata_list.append(video_metadata)
+
+    video_metadata_list_file = 'video_metadata_list.tsv'
+    n_video_metadata_list = len(video_metadata_list)
+    tsv.write(video_metadata_list_file, video_metadata_list)
+    print(f'Wrote {n_video_metadata_list} to {video_metadata_list_file}')
 
 
 if __name__ == '__main__':
@@ -142,3 +160,11 @@ if __name__ == '__main__':
     os.system(
         f'git commit -m "[run_pipeline][download_videos] {time_id}"',
     )
+
+    write_summmary()
+    os.system('git add .')
+    os.system(
+        f'git commit -m "[run_pipeline][write_summmary] {time_id}"',
+    )
+
+    os.system('git push origin master')
