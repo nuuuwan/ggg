@@ -1,10 +1,10 @@
 import os
-import json
 import tweepy
 from utils import jsonx, logx, timex
 log = logx.get_logger('ggg')
 
-MAX_VIDEOS_TO_SCRAPE = 10
+MAX_VIDEOS_TO_SCRAPE = 100
+MAX_DOWNLOADS_PER_ATTEMPT = 10
 DIR_VIDEO_METADATA = 'video_metadata'
 DIR_VIDEOS = 'videos'
 MIN_FILE_SIZE = 1000
@@ -56,7 +56,7 @@ def scrape_metadata():
     auth.set_access_token(access_token, access_token_secret)
     api = tweepy.API(auth, wait_on_rate_limit=True)
 
-    n_videos = 0
+    n_scrapes = 0
     for tweet in tweepy.Cursor(
         api.search,
         q="video #GotaGoGama -filter:retweets",
@@ -87,15 +87,15 @@ def scrape_metadata():
             user_statuses_count=user.statuses_count,
         )
         wrote_video_metadata(video_metadata)
-        n_videos += 1
-
-        if n_videos > MAX_VIDEOS_TO_SCRAPE:
+        n_scrapes += 1
+        if n_scrapes >= MAX_VIDEOS_TO_SCRAPE:
             break
 
 
 def download_videos():
     file_list = list(os.listdir(DIR_VIDEO_METADATA))
     n = len(file_list)
+    n_downloads = 0
     for i_file, file_only in enumerate(file_list):
         if file_only[-5:] != '.json':
             continue
@@ -117,8 +117,12 @@ def download_videos():
         video_url_list = video_metadata['video_url_list']
         for i_video, video_url in enumerate(video_url_list):
             video_file = os.path.join(DIR_VIDEOS, f'{id}-{i_video}.mp4')
+            n_downloads += 1
             download_video(video_url, video_file)
             log.debug(f'Downloaded {video_file}')
+
+            if n_downloads >= MAX_DOWNLOADS_PER_ATTEMPT:
+                return
 
 
 if __name__ == '__main__':
