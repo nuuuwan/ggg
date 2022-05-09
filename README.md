@@ -1,3 +1,61 @@
+# SHAN
+
+*2022-05-09 14:23:58*
+
+#UPDATE - Tires burnt at Aluthmawatha Colombo 15 and next to Bloemendal Police station...
+
+#GotaGoGama #ProtestLK #GoHomeRajapakshas #GoHomeMahinda #අරගලයටජය  #GotaGoHome2022 https://t.co/cKLkjrAZlw
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523670115501281285-0.mp4
+
+# Srilankan Photographer
+
+*2022-05-09 14:23:30*
+
+The youth are been attacked by Mahinda and his thugs also drunkards..who are creating violence in the peaceful protest ground.
+Save #GotaGoGama 💔😢
+Save our Country and people from this mad old corrupted politicians. 
+
+#BBC #SriLanka #gohomegota #GoHomeRajapakshas https://t.co/JqtHMEWGsx
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523669997096435712-0.mp4
+
+# Srilankan Photographer
+
+*2022-05-09 14:22:55*
+
+The youth are been attacked by Mahinda and his thugs also drunkards..who are creating violence in the peaceful protest ground.
+Save #GotaGoGama 
+Save our Country and people from this mad old corrupted politicians. 
+
+#BBC #SriLanka #gohomegota #GoHomeRajapakshas https://t.co/BilLCdCtZY
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523669851373416448-0.mp4
+
+# ShanM
+
+*2022-05-09 14:22:20*
+
+The Prime Minister has been removed‍. 
+Next is the President's opportunity.
+Victory for the Protest...
+
+#GotaGoGama #ProtestLK #GoHomeRajapakshas #GoHomeMahinda #අරගලයටජය  #GotaGoHome2022 https://t.co/EH3yFvkauG
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523669704900247561-0.mp4
+
+# SHAN
+
+*2022-05-09 14:22:06*
+
+The Prime Minister has been removed‍. 
+Next is the President's opportunity.
+Victory for the Protest...
+
+#GotaGoGama #ProtestLK #GoHomeRajapakshas #GoHomeMahinda #අරගලයටජය  #GotaGoHome2022 https://t.co/Vs41g1v6Sn
+
+https://raw.githubusercontent.com/nuuuwan/ggg/main/videos/1523669645521154048-0.mp4
+
 # Younus Yusri
 
 *2022-05-09 14:17:47*
