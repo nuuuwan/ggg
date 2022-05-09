@@ -1,0 +1,11 @@
+--2022-05-09 16:40:00--  https://video.twimg.com/ext_tw_video/1523607665376641025/pu/vid/320x564/gJNqUm04O05iV_y9.mp4?tag=12
+Resolving video.twimg.com (video.twimg.com)... 117.18.232.102
+Connecting to video.twimg.com (video.twimg.com)|117.18.232.102|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [video/mp4]
+Saving to: ‘videos/1523607718451417088-0.mp4’
+
+         videos/1523607     [   <=>                       ] 280.00K   411KB/s                       videos/15236077     [    <=>                      ] 439.99K   486KB/s                      videos/152360771     [     <=>                     ] 520.00K   323KB/s                     videos/1523607718     [      <=>                    ] 951.93K   504KB/s                    videos/15236077184     [       <=>                   ]   1016K   445KB/s                   videos/152360771845     [        <=>                  ]   1.04M   426KB/s               videos/1523607718451417     [         <=>                 ]   1.23M   505KB/s    in 2.5s    
+
+2022-05-09 16:40:04 (505 KB/s) - ‘videos/1523607718451417088-0.mp4’ saved [1293539]
+
