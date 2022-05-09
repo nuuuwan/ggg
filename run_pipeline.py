@@ -6,7 +6,7 @@ from utils import jsonx, logx, timex, tsv
 log = logx.get_logger('ggg')
 
 MAX_VIDEOS_TO_SCRAPE = 100
-MAX_DOWNLOADS_PER_ATTEMPT = 10
+MAX_DOWNLOADS_PER_ATTEMPT = 20
 DIR_VIDEO_METADATA = 'video_metadata'
 DIR_VIDEOS = 'videos'
 MIN_FILE_SIZE = 1000
