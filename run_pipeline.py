@@ -99,7 +99,7 @@ def scrape_metadata():
 
 
 def download_videos():
-    file_list = list(os.listdir(DIR_VIDEO_METADATA))
+    file_list = sorted(list(os.listdir(DIR_VIDEO_METADATA)))
     n = len(file_list)
     n_downloads = 0
     for i_file, file_only in enumerate(file_list):
