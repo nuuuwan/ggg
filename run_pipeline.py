@@ -1,7 +1,7 @@
 import os
 import json
 import tweepy
-from utils import jsonx, logx
+from utils import jsonx, logx, timex
 log = logx.get_logger('ggg')
 
 MAX_VIDEOS_TO_SCRAPE = 10
@@ -118,9 +118,23 @@ def download_videos():
         for i_video, video_url in enumerate(video_url_list):
             video_file = os.path.join(DIR_VIDEOS, f'{id}-{i_video}.mp4')
             download_video(video_url, video_file)
-            log.debug(f'Downloaded {video_file}'...)
+            log.debug(f'Downloaded {video_file}')
 
 
 if __name__ == '__main__':
+
     scrape_metadata()
+
+    time_id = timex.get_time_id()
+    os.system('git add .')
+    os.system(
+        f'git commit -m "[run_pipeline][scrape_metadata] {time_id}"',
+    )
+
     download_videos()
+
+    time_id = timex.get_time_id()
+    os.system('git add .')
+    os.system(
+        f'git commit -m "[run_pipeline][download_videos] {time_id}"',
+    )
