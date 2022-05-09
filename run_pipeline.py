@@ -182,7 +182,6 @@ def write_summmary():
         lines.append('# ' + video_metadata['user_name'])
         lines.append('*' + video_metadata['created_at'] + '*')
         lines.append(video_metadata['full_text'])
-
         lines.append(video_metadata['downloaded_video_url0'])
 
     md_file = 'README.md'
@@ -192,21 +191,21 @@ def write_summmary():
 
 if __name__ == '__main__':
 
-    # scrape_metadata()
-    #
-    # time_id = timex.get_time_id()
-    # os.system('git add .')
-    # os.system(
-    #     f'git commit -m "[run_pipeline][scrape_metadata] {time_id}"',
-    # )
-    #
-    # download_videos()
-    #
-    # time_id = timex.get_time_id()
-    # os.system('git add .')
-    # os.system(
-    #     f'git commit -m "[run_pipeline][download_videos] {time_id}"',
-    # )
+    scrape_metadata()
+
+    time_id = timex.get_time_id()
+    os.system('git add .')
+    os.system(
+        f'git commit -m "[run_pipeline][scrape_metadata] {time_id}"',
+    )
+
+    download_videos()
+
+    time_id = timex.get_time_id()
+    os.system('git add .')
+    os.system(
+        f'git commit -m "[run_pipeline][download_videos] {time_id}"',
+    )
 
     write_summmary()
     time_id = timex.get_time_id()
