@@ -139,6 +139,7 @@ def write_summmary():
             continue
         video_metadata_file = os.path.join(DIR_VIDEO_METADATA, file_only)
         video_metadata = jsonx.read(video_metadata_file)
+        id = video_metadata['id']
         video0_file = os.path.join(DIR_VIDEOS, f'{id}-0.mp4')
         video_metadata['video_downloaded'] = os.path.exists(video0_file)
         video_metadata_list.append(video_metadata)
