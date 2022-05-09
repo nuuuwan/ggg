@@ -13,7 +13,7 @@ MIN_FILE_SIZE = 1000
 
 
 def download_video(remote_url, local_video_file):
-    cmd = f'wget -nv -O {local_video_file} {remote_url}'
+    cmd = f'wget -O {local_video_file} {remote_url}'
     os.system(cmd)
 
 
@@ -43,6 +43,10 @@ def get_video_url_list(tweet):
 def wrote_video_metadata(video_metadata):
     id = video_metadata['id']
     video_metadata_file = os.path.join(DIR_VIDEO_METADATA, f'{id}.json')
+
+    if os.path.exists(video_metadata_file):
+        log.debug(f'{video_metadata_file} already exists')
+
     jsonx.write(video_metadata_file, video_metadata)
     print(f'Wrote {video_metadata_file}')
 
